@@ -1,4 +1,19 @@
-/* Sets all the text color to red! */
-body {
-    color: red;
+/* Sets active line number to white */
+.cm-gutterElement.cm-active {
+	color: var(--text-muted);
+	text-align: right;
+	min-width: 20px;
+}
+
+/* 
+Puts relative line numbers on outside.
+Easier than rewriting the plugin
+*/
+.markdown-source-view.mod-cm6 .cm-gutters {
+	flex-direction: row-reverse;
+}
+
+.ͼ1 .cm-lineNumbers .cm-gutterElement {
+	padding: 0 4px 0 0;
+	min-width: 20px;
 }
