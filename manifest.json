@@ -1,6 +1,6 @@
 {
 	"id": "relative-line-numbers-cm6",
-	"name": "Relative Line Numbers CM6",
+	"name": "Relative Line Numbers in Live Preview",
 	"version": "1.0.0",
 	"minAppVersion": "0.13.0",
 	"description": "Enables relative line numbers in live preview mode",
